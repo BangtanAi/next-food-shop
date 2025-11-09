@@ -1,3 +1,3 @@
 export default function Food() {
-    return "Food"
+    return "Food pizzaa"
 }
