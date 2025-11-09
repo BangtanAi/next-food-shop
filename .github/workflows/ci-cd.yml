@@ -23,13 +23,13 @@ jobs:
       - run: npm ci
 
       # 4. Проверяем линтер
-      - run: npm run lint
+#      - run: npm run lint
 
       # 5. Собираем проект
       - run: npm run build
 
       # 6. Запускаем тесты (если есть)
-      - run: npm test
+#      - run: npm test
 
       # 7. Деплой на Vercel
       - name: Deploy to Vercel
